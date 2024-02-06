@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Employee Registration</title>
+  <link rel="stylesheet" href="regStyle.css">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+
+<div class="reg-body">
+
+<div class="body-reg">
+
+  <form action="#" method="POST" class="registration-form">
+    <h2>Employee Registration</h2>
+      <div class="input-box">
+        <div class="input-field">
+<!--          <label id="f-name">First name:</label>-->
+        <input type="text" id="firstName" name="firstName" placeholder="First name" required>
+          <i class='bx bxs-user'></i>
+        </div>
+        <div class="input-field">
+<!--          <label id="l-name">Last name:</label>-->
+        <input type="text" id="lastName" name="lastName" placeholder="Last name" required>
+          <i class='bx bxs-user'></i>
+        </div>
+        <div class="input-field">
+<!--          <label id="Email-name">Email:</label>-->
+        <input type="email" id="email" name="email" placeholder="Email" required>
+          <i class='bx bxs-envelope'></i>
+        </div>
+        <div class="input-field">
+<!--          <label id="Genders">Gender:</label>-->
+          <select id="gender" name="gender" required>
+            <option value="">Select Gender</option>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="other">Other</option>
+          </select>
+          <i class='bx bx-male-female'></i>
+        </div>
+
+        <div class="input-field">
+<!--          <label id="passport-picture">Passport photo:</label>-->
+          <input type="file" id="picture" name="picture" placeholder="Attach photo" required>
+          <i class='bx bxs-file-doc'></i>
+        </div>
+        <div class="input-field">
+<!--          <label id="passwd">Create Password:</label>-->
+          <input type="password" id="password" name="password" placeholder="Create Password" required>
+          <i class='bx bxs-lock'></i>
+        </div>
+      <div class="input-box">
+        <div class="input-field">
+<!--          <label id="tel">Phone number:</label>-->
+          <input type="tel" id="phone" name="phone" placeholder="Phone number" required>
+          <i class='bx bxs-phone-call' ></i>
+        </div>
+        <div class="input-field">
+<!--          <label id="">Emmployee ID:</label>-->
+        <input type="text" id="employeeID" name="employeeID" placeholder="Employee ID" required>
+          <i class='bx bx-id-card'></i>
+        </div>
+        <div class="input-field">
+<!--          <label id="poss">Possion:</label>-->
+          <input type="text" id="position" name="position" placeholder="Position" required>
+          <i class='bx bxs-hard-hat'></i>
+        </div>
+        <div class="input-field">
+<!--          <label id="dep">Department:</label>-->
+        <input type="text" id="department" name="department" placeholder="Department" required>
+        </div>
+        <div class="input-field">
+<!--          <label id="date">Started date:</label>-->
+          <input type="date" id="startDate" name="startDate" placeholder="Started Date" required>
+          <i class='bx bx-calendar' aria-placeholder="Started date"></i>
+        </div>
+        <div class="input-field">
+<!--          <label id="sal">Salary:</label>-->
+        <input type="number" id="salary" name="salary" placeholder="Salary" required>
+          <i class='bx bx-money-withdraw'></i>
+        </div>
+      </div>
+    <button type="submit" class="btn">Register</button>
+        <a href="Login.html" id="myLink">
+          <p class="link-login">I have account!! Login</p>
+        </a>
+      </div>
+      <div class="back-home">
+      <button><a href="index.html">Back Home >>></a>
+      </button>
+
+      </div>
+
+  </form>
+</div>
+</div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,84 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #a8a6a6;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+.container .header-h{
+    font-size: 30px;
+    margin-top: -20px;
+    text-align: center;
+    color: #274c77;
+}
+
+.login-container {
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgb(54, 52, 52);
+    padding: 60px;
+    width: 350px;
+}
+.login-container input{
+    padding: 15px 15px 15px 40px;
+    font-size: 16px;
+}
+.login-container i{
+    position: relative;
+    left: 15px;
+    top: 45%;
+    transform: translateY(-240%);
+    color: #0c0c0c;
+
+}
+.back-home .ff{
+    /*background-color: #6096ba;*/
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 17px;
+    color: #0c0c0c;
+    margin-left: 100px;
+    width: 55%;
+}
+.login-form {
+    display: flex;
+    flex-direction: column;
+}
+.
+label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+button {
+    background-color: #3498db;
+    color: #fff;
+    padding: 12px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #217dbb;
+}
+
+/* Checkbox styling */
+label input[type="checkbox"] {
+    margin-right: 5px;
+    color: white;
+}
